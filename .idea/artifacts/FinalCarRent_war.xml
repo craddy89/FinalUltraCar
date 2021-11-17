@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FinalCarRent:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FinalCarRent</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="BestCar-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="FinalCarRent:war exploded" />
+    </root>
+  </artifact>
+</component>
